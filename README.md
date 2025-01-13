@@ -25,7 +25,7 @@ TBD - The block diagram will illustrate the robot's main hardware components, co
 TBD - This section will contain data about the components used in creating the project.
  
 ## Software Design
-The software design for Romică is centered around efficient, reliable communication between the robot's hardware components and the end user. The project is developed using PlatformIO on Visual Studio Code, a robust and feature-rich environment for embedded systems development.
+The software design for the clock project prioritizes efficient and reliable communication between the hardware components, such as the joystick, LCD, and alarm system. The project is developed using the Arduino IDE, a user-friendly and widely adopted environment for embedded systems programming.
  
 ## Final Results
 TBD - This section will document the robot's performance, including its speed, responsiveness, and user feedback.
@@ -36,9 +36,25 @@ TBD - The conclusions will reflect on the challenges faced, solutions implemente
 ## Journal
 ### Day 1 (12.12.2024):
 Started the documentation.
- 
+### Day 2 (17.12.2024):
+Milestone 2 - Hardware:
+![WhatsApp Image 2025-01-13 at 22 39 26](https://github.com/user-attachments/assets/eea15266-209a-44bb-b5bb-41b3439dd1d5)
+### Day 3 (13.01.2025):
+First round of coding - functionalities for :
+                           - Clock
+                           - Alarm
+                           - Displayed Menu
+                           - Joystick interactions
 ## Source Code
-TBD
- 
+Master Arduino Code - https://pastebin.com/HJESQh1H
+Slave Arduino Code - https://pastebin.com/zzZ85peA
 ## Resources
-TBD
+- 2 Arduino Uno
+- One Small Breadboard
+- One Large Breadboard
+- One buzzer
+- One 220 ohms resistor
+- One 4 Seven Segment Display
+- One 16x2 LCD Display
+- Multitude of cables
+- One Joystick

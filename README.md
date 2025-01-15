@@ -77,18 +77,18 @@ Hardcoded Start Time
 ## Final Results
 The physical clock with alarm and timer successfully demonstrates the following functionalities and features:
 
- #1. Clock Display
+ 1. Clock Display
   The time is continuously displayed on the 4-digit seven-segment display in a clear and easy-to-read format.
   The initial time is hardcoded to start at 12:00 PM, simulating a basic clock mechanism.
- #2. Alarm Functionality
+ 2. Alarm Functionality
   The user can set an alarm using the joystick and confirm the alarm time displayed on the 16x2 LCD screen.
   When the alarm time is reached, the buzzer sounds, providing an audible alert.
   The user has the ability to stop the alarm once it triggers.
-#3. Timer Functionality
+ 3. Timer Functionality
   The user can set a countdown timer via the joystick, with the timer value displayed on the 4-digit seven-segment display.
   Once the countdown completes, the buzzer sounds to notify the user.
   The user can also stop or reset the timer at any point.
- #4. User Interface
+ 4. User Interface
   The 16x2 LCD display provides detailed feedback during alarm and timer setup, such as showing the current settings, time, and status updates.
   The joystick serves as an intuitive input device for setting the time, alarm, or timer values.
  
@@ -110,6 +110,12 @@ First round of coding - functionalities for :
                            - Alarm
                            - Displayed Menu
                            - Joystick interactions
+### Day 4 (15.01.2025):
+The final part of coding - functionalities for:
+                           - Menu Navigation
+                           - Stop Alarm
+                           - Stop Timer
+                           - Timer
 ## Resources
 - 2 Arduino Uno
 - One Small Breadboard
